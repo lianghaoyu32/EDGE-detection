@@ -1,10 +1,12 @@
-<<<<<<< HEAD
-# EDGE-detection
-Introduction to computer vision assignment
-=======
 ### 运行后在键盘上按对应的功能建，运行对应的例程 (After running, according to the key on the keyboard, run the corresponding routine)
 
 requirement: Opencv
+
+使用方式：直接运行，运行后选择功能，在键盘上按对应的功能键
+
+(1)输入“iris”,实现虹膜分割功能。
+(2)输入“camera”,调用摄像头实时读取图片,按对应的功能键实现不同类型的操作。
+(3)输入“location”,读取本地图片,按对应的功能键实现不同类型的操作。
 
 ----------------------------------------------
   功能键 | 功能
@@ -36,4 +38,3 @@ requirement: Opencv
     H   | 提取外边界（膨胀减原图）
     J   | 形态学梯度（膨胀减腐蚀，即内外边界相加）
     P   | Canny算子
->>>>>>> bc037c9 (first commit)
