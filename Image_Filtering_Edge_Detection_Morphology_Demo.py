@@ -377,6 +377,7 @@ while mode == "camera":
             image_filter = Canny
     source.release()
     cv2.destroyWindow(win_name)
+    break
 
 
 while mode == "location":
